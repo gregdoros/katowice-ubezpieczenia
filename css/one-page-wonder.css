@@ -308,3 +308,12 @@ color: #2E548C;
     width: 100%;
     margin: 0 auto;
 }
+.ikony {
+    list-style-type: none;
+}
+.ikony li {
+    color: rgba(255,255,255,0.8);
+    font-size: 18px;
+    display: inline-block;
+    padding: 20px 30px;
+}
