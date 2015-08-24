@@ -55,9 +55,15 @@ body {
     -o-background-size: cover;
 }
 
-.budynek-image
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo
 {
-  
+  height: 40px;
 }
 
 .headline {
@@ -93,10 +99,11 @@ body {
 }
 
 .lista li {
-    font-size: 18px;
-    border-top: solid rgba(255,255,255,0.3) 1px;
+    font-size: 16px;
+    border-top: solid rgba(255,255,255,0.1) 1px;
     padding: 10px 0;
     width: auto;
+    color: lightgrey;
 }
 
 .lista li:first-child {
@@ -260,6 +267,7 @@ footer {
 #map { 
   height: 100%; 
   width: 100%;
+  margin: 0 auto;
   position: absolute;
   top: 0;
   left: 0;
@@ -268,12 +276,17 @@ footer {
 
 .contactform { 
   position: relative; 
+  width: 100%;
   z-index: 1; /* The z-index should be higher than Google Maps */
-  width: 300px;
-  margin: -30% auto 0;
-  padding: 10px;
-  background: black;
+  margin: 0 auto;
+}
+
+.form-area{
+    margin: 0 auto;
+    padding: 10px;
+    padding-bottom: 70px;
+  background: #4C6472;
   height: auto;
-  opacity: .45; /* Set the opacity for a slightly transparent Google Form */ 
+  opacity: .9; /* Set the opacity for a slightly transparent Google Form */ 
   color: white;
 }
