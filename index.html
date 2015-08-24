@@ -55,7 +55,10 @@
                             <a data-scroll href="#oferta">Nasza oferta</a>
                         </li>
                         <li>
-                            <a data-scroll href="#map">Kontakt</a>
+                            <a data-scroll href="#map">Znadź nas</a>
+                        </li>
+                        <li>
+                            <a data-scroll href="#kontakt">Kontakt</a>
                         </li>
                     </ul>
                 </div>
@@ -74,15 +77,20 @@
                         
                         <li>
                             <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-                    <span>ul Testowa 6, 40-666 Katowice</span>
+                    <span>ul. Wiertnicza 2, 40-304 Katowice</span>
                         </li>
                         <li>
                             <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
-                    <span>+48 343 43 43</span>
+                    <span>+48 501 338 471</span>
                         </li>
                         <li>
                             <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-                    <span>ubezpieczenia@ubezpiecza.pl</span>
+                    <span>ubezpieczenia@gmail.com</span>
+
+                        </li>
+                        <li>
+                            <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+                    <span>godziny otwarcia: pon-pt 11:00 - 17:00</span>
 
                         </li>
                     </ul>
@@ -240,8 +248,13 @@
         <!-- Third Featurette -->
     <div class="featurette" id="mapa">
          <div id="map"></div>
+    </div>
+
+            <!-- Third Featurette -->
+    <div class="featurette" id="kontakt">
+        
 <div class="container">
-<div class="col-md-5 col-md-offset-7">
+<div class="col-md-12">
     <div class="form-area">  
         <form role="form">
         <br style="clear:both">
@@ -267,7 +280,7 @@
         </form>
     </div>
 </div>
-</div>
+
     </div>
 
 
@@ -304,7 +317,7 @@ function initMap() {
   var myLatLng = {lat: 50.2737156, lng: 19.0558216};
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 15,
-    center: center,
+    center: myLatLng,
     scrollwheel: false,
     draggable: false,
   });
