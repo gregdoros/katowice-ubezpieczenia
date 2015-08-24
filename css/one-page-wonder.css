@@ -48,7 +48,7 @@ body {
     height:100vh;
     margin-top:-50px;
     text-align: center;
-    background: url('../img/tlo.jpeg') no-repeat center center scroll;
+    background: url('../img/tlo3.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -73,17 +73,17 @@ body {
 .headline h1 {
     font-size: 130px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,0.2);
 }
 
 .headline h2 {
     font-size: 77px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,0.3);
 }
 
 .oferta{
-    color: rgba(255,255,255,0.8);;
+    color: white;
     font-size: 40px;
     padding: 20px;
 }
@@ -282,10 +282,11 @@ footer {
 }
 
 .form-area{
+color: #2E548C;
     margin: 0 auto;
     padding: 10px;
     padding-bottom: 70px;
-  background: #4C6472;
+  background: #fff;
   height: auto;
   opacity: .9; /* Set the opacity for a slightly transparent Google Form */ 
   color: white;
@@ -301,4 +302,9 @@ footer {
 
 .featurette-heading{
     color: white;
+}
+
+.ubez-zdjecie{
+    width: 100%;
+    margin: 0 auto;
 }
