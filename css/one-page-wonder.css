@@ -48,7 +48,7 @@ body {
     justify-content: center;
     width: 100%;
     height:100vh;
-    margin-top:-50px;
+    margin-top: 50px;
     text-align: center;
     background: url('../img/tlo3.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -197,6 +197,10 @@ footer {
     .featurette-heading {
         font-size: 30px;
     }
+
+    #oferta{
+        height: 100%;
+    }
 }
 
 @media(max-width:768px) {
@@ -230,6 +234,14 @@ footer {
     .featurette-divider {
         margin: 30px 0;
     }
+
+    .container .navbar-collapse {
+    float: none !important;
+    }
+
+    #oferta{
+        height: 100%;
+    }
 }
 
 @media(max-width:640px) {
@@ -243,6 +255,25 @@ footer {
 
     .headline h2 {
         font-size: 30px;
+    }
+
+    #oferta{
+        height: 100%;
+    }
+}
+
+@media(max-width: 500px){
+    #kontakt{
+        height: 100%;
+        padding: 0px;
+    }
+
+    .container .navbar-collapse {
+    float: none !important;
+    }
+
+    #oferta{
+        height: 100%;
     }
 }
 
@@ -263,6 +294,40 @@ footer {
     .featurette-image.pull-right {
         margin-bottom: 10px;
         margin-left: 0;
+    }
+
+    .headline .container h1 {
+        font-size: 40px;
+    }
+
+    .headline .container h2 {
+        font-size: 22px;
+    }
+
+    .headline .container .ikony li {
+        font-size: 14px;
+        padding: 0px;
+    }
+
+    .container .ikony {
+        padding: 0;
+    }
+
+    #kontakt{
+        height: 100%;
+        padding: 0px;
+    }
+
+    #mapa{
+        padding-bottom: 0px;
+    }
+
+    .container .navbar-collapse {
+        float: none !important;
+    }
+
+    .navbar-brand .logo {
+        height: 100%;
     }
 }
 
