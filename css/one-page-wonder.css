@@ -139,8 +139,8 @@ footer {
 }
 
 .portfolio-item {
-    //margin-bottom: 25px;
-}
+    margin-bottom: 25px;
+}   
 
 .stopka {
     padding:10px 0;
@@ -268,7 +268,9 @@ a h1:hover {
         font-size: 25px;
     }
     
-
+    .historia {
+        margin-top: 5px;
+    }
 
     .ikony li {
         font-size: 15px;
