@@ -45,19 +45,19 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">Start</a>
+                        <a data-scroll href="#">Start</a>
                     </li>
                     <li>
-                        <a href="#onas">O nas</a>
+                        <a data-scroll href="#onas">O nas</a>
                     </li>
                     <li>
-                        <a href="#naszaoferta">Nasza oferta</a>
+                        <a data-scroll href="#naszaoferta">Nasza oferta</a>
                     </li>
                     <li>
-                        <a href="#mapa">Znajdź nas</a>
+                        <a data-scroll href="#mapa">Znajdź nas</a>
                     </li>
                     <li>
-                        <a href="#kontakt">Kontakt</a>
+                        <a data-scroll href="#kontakt">Kontakt</a>
                     </li>
                 </ul>
             </div>
@@ -260,16 +260,17 @@
                                         <input type="text" class="form-control" id="name" name="name" placeholder="Imię" required>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+                                        <input type="text" class="form-control" id="email" name="_replyto" placeholder="Email" required>
                                     </div>
                                     <div class="form-group">
                                         <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Telefon" required>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Temat" required>
+                                        <input type="text" class="form-control" id="subject" name="_subject" placeholder="Temat" required>
                                     </div>
                                     <div class="form-group">
-                                    <textarea class="form-control" type="textarea" id="message" placeholder="Wiadomość" maxlength="140" rows="7"></textarea>                    
+                                    <textarea class="form-control" type="textarea" id="message" placeholder="Wiadomość" maxlength="140" rows="7"></textarea>
+                                    <input type="text" name="_gotcha" style="display:none" />                
                                     </div>
                             
                         <button type="submit" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
@@ -285,7 +286,7 @@
                 <div class="container">    
                     <div class="row">
                         <div class="col-lg-12">
-                            <p>Copyright &copy; Your Website 2014</p>
+                            <p>Ubezpieczenia Katowice &copy; gregdoros 2015</p>
                         </div>
                     </div>
                 </div> <!-- /.container -->
@@ -296,7 +297,11 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/smooth-scroll.js"></script>
 
+    <script>
+    smoothScroll.init();
+    </script>
 </body>
 
 </html>
