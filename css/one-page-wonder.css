@@ -42,6 +42,7 @@ body {
     padding: 120px 0;
 }
 
+
 .headline h1 {
     font-size: 130px;
     background: #fff;
@@ -141,6 +142,23 @@ footer {
     margin-bottom: 25px;
 }
 
+.stopka {
+    padding:10px 0;
+    text-align: center;
+    margin-top: 5px;
+}
+
+a h1 {
+    color: #2E548C;
+}
+
+a:hover{
+    text-decoration: none;
+}
+a h1:hover {
+    color: lightblue;
+
+}
 
 @media(max-width:1200px) {
     .headline h1 {
@@ -203,6 +221,12 @@ footer {
         font-size: 40px;
     }
 
+    .headline .h2mapa {
+    font-size: 77px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
     .featurette-heading {
         font-size: 25px;
     }
@@ -231,6 +255,7 @@ footer {
     .headline h2 {
         font-size: 30px;
     }
+
 }
 
 @media(max-width:475px) {
@@ -242,9 +267,12 @@ footer {
     .headline h2 {
         font-size: 25px;
     }
+    
+
 
     .ikony li {
-        font-size: 14px;
+        font-size: 15px;
+        padding: 5px 0;
     }
 }
 
@@ -272,7 +300,4 @@ footer {
         margin-left: 0;
     }
 
-    .ikony li {
-        font-size: 10px;
-    }
 }
