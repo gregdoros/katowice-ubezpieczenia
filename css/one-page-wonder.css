@@ -21,6 +21,18 @@ body {
     -o-background-size: cover;
 }
 
+.mapa-image {
+    display: block;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background: url('../img/mapa.png') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .logo {
     height: 40px;
     margin-top: 10px;
@@ -67,6 +79,7 @@ body {
 
 .featurette-heading {
     font-size: 50px;
+    color: white;
 }
 
 footer {
@@ -84,6 +97,7 @@ footer {
 
 #mapa {
     background-color: #57A4B1;
+    padding: 0;
 }
 
 #kontakt {
@@ -123,6 +137,10 @@ footer {
 
 .portfolio-item {
     margin-bottom: 25px;
+}
+
+#naszaoferta .text-muted {
+
 }
 
 @media(max-width:1200px) {
